@@ -28,9 +28,10 @@ The **AI Medical Chatbot** is an intelligent web-based chatbot designed to colle
 ### **1️⃣ Clone the Repository**  
 
 git clone https://github.com/Balaji-2001/Medchatbot.git
-cd ai-medical-chatbot  
-2️⃣ Create a Virtual Environment
 
+cd ai-medical-chatbot  
+
+2️⃣ Create a Virtual Environment
 python -m venv venv  
 source venv/bin/activate  # (On Windows, use: venv\Scripts\activate)  
 3️⃣ Install Dependencies
