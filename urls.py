@@ -1,7 +1,6 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from .views import chat_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('chatbot.urls')),  # Include URLs from our chatbot app
+    path("", chat_view, name="chat_view"),
 ]
